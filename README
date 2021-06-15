@@ -1,2 +1,3 @@
+## sorted list of transations according to the fee created block.txt thats weight not increase than 4,000,000. transations added to block with the transations who's parents already in list 
 please install requiremets.txt
 #used pandas 
