@@ -12,6 +12,9 @@ class MempoolTransaction():
         self.transactions=df.values.tolist()
 
         # this is link to be disply
+        #    df=pd.read_csv('mempool.csv')
+        # df=df.sort_values(by = 'fee',ascending = False)
+        # self.transactions=df.values.tolist()
     
     def parse_block(self):
         try:
