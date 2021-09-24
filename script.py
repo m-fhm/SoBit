@@ -10,7 +10,9 @@ class MempoolTransaction():
         df=pd.read_csv('mempool.csv')
         df=df.sort_values(by = 'fee',ascending = False)
         self.transactions=df.values.tolist()
-        
+
+        # this is link to be disply
+    
     def parse_block(self):
         try:
             out_data = open("block.txt",'a')# open block.txt file to write transations as output
